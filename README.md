@@ -2,23 +2,29 @@ Blog React APP
 
 The object of the project is the creation of a multifaceted site in which requests for a general list and individual elements are implemented.
 
-url	component
+url	          component
 
-  /	Home
+/	            Home
   
-  /users	UsersList
+/users	      UsersList
   
-  /users/:id	UserPage
+/users/:id	  UserPage
+
 
 Description:
+__________________________________________________________________________________________________________
 
 api/
 
 api-user.js - create request to API
 
+__________________________________________________________________________________________________________
+
 hooks/
 
 useData.js - takes the path of the request and makes a request to the server, returning the received data
+
+___________________________________________________________________________________________________________
 
 Blog.js - Site routing
 
