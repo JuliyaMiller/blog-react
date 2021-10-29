@@ -5,7 +5,9 @@ The object of the project is the creation of a multifaceted site in which reques
 url	component
 
   /	Home
+  
   /users	UsersList
+  
   /users/:id	UserPage
 
 Description:
@@ -23,5 +25,7 @@ Blog.js - Site routing
 user/
 
 UsersList.js - container for displaying information for all users
+
 UserItem.js - component for displaying short info about user on UsersList.js
+
 UserItem.js - component for displaying full info about selected user
