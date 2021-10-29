@@ -1,21 +1,22 @@
-/containers - all components
-/api - create request to server
-/hooks - hook
+Blog React APP
 
-urls:
-/- HOME
-/user - list all users
-/user/:id - info user
+url	component
+  /	Home
+  /users	UsersList
+  /users/:id	UserPage
 
-/api - create request
+Description:
 
-/hooks:
-/userData - hook create get request to API(Server)
+api/
+api-user.js - create request to API
 
-componets:
+hooks/
+useData.js - takes the path of the request and makes a request to the server, returning the received data
 
-/users:
+Blog.js - Site routing
 
-/UserList.js - container for user;
-/UserItem.js - SHORT info about all
-/UserPage.js - FULL info about selected user
+user/
+
+UsersList.js - container for displaying information for all users
+UserItem.js - component for displaying short info about user on UsersList.js
+UserItem.js - component for displaying full info about selected user
