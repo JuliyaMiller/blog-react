@@ -2,17 +2,15 @@
 
 The object of the project is the creation of a multifaceted site in which requests for a general list and individual elements are implemented.
 
-url	          component
-
-/	            Home
-  
-/users	      UsersList
-  
-/users/:id	  UserPage
+|     **url**     |     **component**       |
+|-------------------|----------------------------|
+|          /          |          Home          |
+|          /users          |          UsersList          |
+|          /users/:id          |UserPage         |
 
 
-Description:
-__________________________________________________________________________________________________________
+##  Description:
+_______________________________________________________________________________________________
 
 api/
 + api-user.js - create request to API
