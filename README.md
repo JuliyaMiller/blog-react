@@ -15,23 +15,19 @@ Description:
 __________________________________________________________________________________________________________
 
 api/
-
-api-user.js - create request to API
++ api-user.js - create request to API
 
 __________________________________________________________________________________________________________
 
 hooks/
 
-useData.js - takes the path of the request and makes a request to the server, returning the received data
++  useData.js - takes the path of the request and makes a request to the server, returning the received data
 
 ___________________________________________________________________________________________________________
 
-Blog.js - Site routing
+Blog.js 
 
 user/
-
-UsersList.js - container for displaying information for all users
-
-UserItem.js - component for displaying short info about user on UsersList.js
-
-UserItem.js - component for displaying full info about selected user
++  UsersList.js - container for displaying information for all users
++  UserItem.js - component for displaying short info about user on UsersList.js
++  UserItem.js - component for displaying full info about selected user
