@@ -29,3 +29,5 @@ user/
 +  UsersList.js - container for displaying information for all users
 +  UserItem.js - component for displaying short info about user on UsersList.js
 +  UserItem.js - component for displaying full info about selected user
+
+https://study-project-social-network.vercel.app/
